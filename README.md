@@ -4,9 +4,17 @@
 
 
 
-Online shopping behavior is the process by which consumers search for, select, purchase, use, and dispose of goods and services, over the internet. 
+Online shopping behavior is the process by which consumers search for, select, purchase, use, and dispose of goods and services, over the internet. For the ecommerce platform, one of the most important questions is, whether the customer is just browsing or actually buying. 
 
-We will be doing an intensive analysis of consumer behavioral, applying techniques ranging from supervised, unsupervised learning, as well as semi-supervised learning.
+Customers are very heterogenous so it is important that the sellers do not treat them in the same way. They always want to leverage their resources to find and keep the customers in which they have confidence that they can more likely to purchase. The sellers could take some proactive action, like time-limited coupons or free trials, to push customers to purchase. By targeting the right customers the sellers could improve retention and increase sales and profits.
+
+In this project we will be doing an intensive analysis of consumer behavioral and performing the following tasks:
+
+1. Classification (EDA and Modelling)
+
+2. Customer Segmentation
+
+3. Semi-Supervised Learning
 
 # Data
 
@@ -21,7 +29,7 @@ The data is in `dat/online_shoppers_intention.csv.gz`, from [Online Shoppers Pur
 - The value of `Exit Rate` for a specific web page is calculated as for all page views to the page and it represents the percentage that the page was seen in the last session. 
 - Feature `Page Value` represents the average value for a web page that a user visited before completing an e-commerce transaction. 
 - Feature `Special Day` indicates the closeness of the site visiting time to a specific special day (e.g., Mother’s Day or Valentine's Day) in which the sessions are more likely to be finalized with transaction. The value of this attribute is determined by considering the dynamics of e-commerce such as the duration between the order date and delivery date. 
-- The dataset also includes operating system, browser, region, traffic type, visitor type as returning or new visitor, a boolean value indicating whether the date of the visit is weekend, and month of the year.
+- The dataset also includes operating system, browser, region, traffic type, visitor type as returning or new visitor, a Boolean value indicating whether the date of the visit is weekend, and month of the year.
 
 # Tasks
 
